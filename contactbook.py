@@ -31,16 +31,16 @@ while True:
             else:
                 print("Resposta invalida, digite S ou N")
             
-    novo_contato = {
+        novo_contato = {
                 "nome": nome,
                 "telefone": telefone,
                 "email": email,
                 "favorito": favorito
             }
-    tarefa.append(novo_contato)
-    print(f"Contato {nome} adicionado com sucesso")
+        tarefa.append(novo_contato)
+        print(f"Contato {nome} adicionado com sucesso")
 
-    if escolha == "8":
+    elif escolha == "8":
         break
-1
+        
 print("Programa finalizado!")
